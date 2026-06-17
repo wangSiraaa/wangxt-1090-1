@@ -1,6 +1,6 @@
 import { Outlet, useNavigate, useLocation } from 'react-router-dom';
 import { useApp } from '../context/AppContext';
-import { TreePine, Home, Heart, Droplets, BarChart3, Bell, User, LogOut } from 'lucide-react';
+import { TreePine, Home, Heart, Droplets, BarChart3, Bell, User, LogOut, Sun } from 'lucide-react';
 
 export default function Layout() {
   const navigate = useNavigate();
@@ -22,11 +22,13 @@ export default function Layout() {
   const greenkeeperNav = [
     { path: '/app', name: '苗木列表', icon: TreePine },
     { path: '/app/maintenance', name: '养护记录', icon: Droplets },
+    { path: '/app/seasonal-care', name: '季节养护', icon: Sun },
     { path: '/app/reminders', name: '消息提醒', icon: Bell },
   ];
 
   const committeeNav = [
     { path: '/app', name: '苗木列表', icon: TreePine },
+    { path: '/app/seasonal-care', name: '季节养护', icon: Sun },
     { path: '/app/statistics', name: '数据统计', icon: BarChart3 },
     { path: '/app/reminders', name: '消息提醒', icon: Bell },
   ];

@@ -8,6 +8,7 @@ import Maintenance from './pages/Maintenance';
 import Statistics from './pages/Statistics';
 import Reminders from './pages/Reminders';
 import RoleSelect from './pages/RoleSelect';
+import SeasonalCare from './pages/SeasonalCare';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path='maintenance' element={<Maintenance />} />
             <Route path='statistics' element={<Statistics />} />
             <Route path='reminders' element={<Reminders />} />
+            <Route path='seasonal-care' element={<SeasonalCare />} />
           </Route>
         </Routes>
       </Router>
