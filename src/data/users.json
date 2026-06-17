@@ -1,0 +1,57 @@
+{
+  "residents": [
+    {
+      "id": "r1",
+      "name": "张三",
+      "phone": "13800138001",
+      "address": "1号楼2单元301",
+      "avatar": "张"
+    },
+    {
+      "id": "r2",
+      "name": "李四",
+      "phone": "13800138002",
+      "address": "3号楼1单元102",
+      "avatar": "李"
+    },
+    {
+      "id": "r3",
+      "name": "王五",
+      "phone": "13800138003",
+      "address": "5号楼3单元501",
+      "avatar": "王"
+    }
+  ],
+  "greenkeepers": [
+    {
+      "id": "g1",
+      "name": "陈绿化",
+      "phone": "13900139001",
+      "employeeId": "GK001",
+      "avatar": "陈"
+    },
+    {
+      "id": "g2",
+      "name": "刘绿化",
+      "phone": "13900139002",
+      "employeeId": "GK002",
+      "avatar": "刘"
+    }
+  ],
+  "committee": [
+    {
+      "id": "c1",
+      "name": "赵主任",
+      "phone": "13700137001",
+      "position": "居委会主任",
+      "avatar": "赵"
+    },
+    {
+      "id": "c2",
+      "name": "孙委员",
+      "phone": "13700137002",
+      "position": "居委会委员",
+      "avatar": "孙"
+    }
+  ]
+}

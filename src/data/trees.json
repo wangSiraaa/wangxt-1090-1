@@ -1,0 +1,90 @@
+[
+  {
+    "id": "t1",
+    "name": "樱花树",
+    "species": "樱花",
+    "age": 3,
+    "location": "小区东门花坛",
+    "status": "healthy",
+    "plantedDate": "2023-03-15",
+    "image": "https://images.unsplash.com/photo-1522383225653-ed111181a951?w=400&h=300&fit=crop",
+    "description": "春季开花，花色粉红，观赏价值高"
+  },
+  {
+    "id": "t2",
+    "name": "桂花树",
+    "species": "桂花",
+    "age": 5,
+    "location": "中心花园北侧",
+    "status": "healthy",
+    "plantedDate": "2022-09-10",
+    "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400&h=300&fit=crop",
+    "description": "秋季开花，花香浓郁"
+  },
+  {
+    "id": "t3",
+    "name": "银杏树",
+    "species": "银杏",
+    "age": 8,
+    "location": "健身广场旁",
+    "status": "healthy",
+    "plantedDate": "2020-04-20",
+    "image": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=400&h=300&fit=crop",
+    "description": "秋季叶色金黄，古老树种"
+  },
+  {
+    "id": "t4",
+    "name": "梧桐树",
+    "species": "梧桐",
+    "age": 4,
+    "location": "南门主干道",
+    "status": "withered",
+    "plantedDate": "2021-05-12",
+    "image": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=400&h=300&fit=crop",
+    "description": "因虫害枯萎，待处理"
+  },
+  {
+    "id": "t5",
+    "name": "玉兰花",
+    "species": "玉兰",
+    "age": 2,
+    "location": "1号楼前",
+    "status": "healthy",
+    "plantedDate": "2024-03-08",
+    "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=400&h=300&fit=crop",
+    "description": "早春开花，花大而美"
+  },
+  {
+    "id": "t6",
+    "name": "紫薇",
+    "species": "紫薇",
+    "age": 6,
+    "location": "儿童乐园旁",
+    "status": "healthy",
+    "plantedDate": "2021-07-15",
+    "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=400&h=300&fit=crop",
+    "description": "花期长，花色艳丽"
+  },
+  {
+    "id": "t7",
+    "name": "松树",
+    "species": "黑松",
+    "age": 10,
+    "location": "北门入口",
+    "status": "healthy",
+    "plantedDate": "2019-01-20",
+    "image": "https://images.unsplash.com/photo-1420881983048-004a6a220399?w=400&h=300&fit=crop",
+    "description": "常绿乔木，四季常青"
+  },
+  {
+    "id": "t8",
+    "name": "柳树",
+    "species": "垂柳",
+    "age": 7,
+    "location": "人工湖边",
+    "status": "withered",
+    "plantedDate": "2020-02-28",
+    "image": "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=400&h=300&fit=crop",
+    "description": "因干旱枯萎，计划更换"
+  }
+]

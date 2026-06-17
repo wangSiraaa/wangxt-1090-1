@@ -1,0 +1,46 @@
+[
+  {
+    "id": "rm1",
+    "type": "maintenance",
+    "treeId": "t6",
+    "treeName": "紫薇",
+    "title": "连续两周未养护提醒",
+    "content": "紫薇树已连续14天未进行养护，请尽快安排绿化员处理。",
+    "date": "2026-06-15",
+    "status": "unread",
+    "priority": "high"
+  },
+  {
+    "id": "rm2",
+    "type": "maintenance",
+    "treeId": "t7",
+    "treeName": "松树",
+    "title": "养护到期提醒",
+    "content": "松树距离上次养护已超过10天，建议近期安排养护。",
+    "date": "2026-06-13",
+    "status": "read",
+    "priority": "medium"
+  },
+  {
+    "id": "rm3",
+    "type": "adoption",
+    "treeId": "t2",
+    "treeName": "桂花树",
+    "title": "认养期已结束",
+    "content": "桂花树的认养期已于10天前到期，请联系居民确认是否续养。",
+    "date": "2026-06-06",
+    "status": "read",
+    "priority": "normal"
+  },
+  {
+    "id": "rm4",
+    "type": "adoption",
+    "treeId": "t1",
+    "treeName": "樱花树",
+    "title": "认养即将到期",
+    "content": "樱花树的认养期将在60天后到期，请提前与居民沟通续养事宜。",
+    "date": "2026-06-16",
+    "status": "unread",
+    "priority": "normal"
+  }
+]

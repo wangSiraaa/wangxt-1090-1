@@ -1,0 +1,42 @@
+[
+  {
+    "id": "a1",
+    "treeId": "t1",
+    "residentId": "r1",
+    "residentName": "张三",
+    "startDate": "2026-05-17",
+    "endDate": "2026-08-15",
+    "status": "active",
+    "adoptDate": "2026-05-17"
+  },
+  {
+    "id": "a2",
+    "treeId": "t2",
+    "residentId": "r2",
+    "residentName": "李四",
+    "startDate": "2026-04-17",
+    "endDate": "2026-06-06",
+    "status": "expired",
+    "adoptDate": "2026-04-17"
+  },
+  {
+    "id": "a3",
+    "treeId": "t3",
+    "residentId": "r3",
+    "residentName": "王五",
+    "startDate": "2026-06-01",
+    "endDate": "2026-08-30",
+    "status": "active",
+    "adoptDate": "2026-06-01"
+  },
+  {
+    "id": "a4",
+    "treeId": "t5",
+    "residentId": "r1",
+    "residentName": "张三",
+    "startDate": "2026-06-11",
+    "endDate": "2026-09-09",
+    "status": "active",
+    "adoptDate": "2026-06-11"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "m1",
+    "treeId": "t1",
+    "greenkeeperId": "g1",
+    "greenkeeperName": "陈绿化",
+    "type": "watering",
+    "date": "2026-05-22",
+    "note": "春季第一次浇水，水量充足"
+  },
+  {
+    "id": "m2",
+    "treeId": "t1",
+    "greenkeeperId": "g1",
+    "greenkeeperName": "陈绿化",
+    "type": "fertilizing",
+    "date": "2026-05-27",
+    "note": "施复合肥2kg"
+  },
+  {
+    "id": "m3",
+    "treeId": "t1",
+    "greenkeeperId": "g2",
+    "greenkeeperName": "刘绿化",
+    "type": "watering",
+    "date": "2026-06-06",
+    "note": "天气干燥，增加浇水量"
+  },
+  {
+    "id": "m4",
+    "treeId": "t3",
+    "greenkeeperId": "g1",
+    "greenkeeperName": "陈绿化",
+    "type": "watering",
+    "date": "2026-06-11",
+    "note": "正常浇水"
+  },
+  {
+    "id": "m5",
+    "treeId": "t3",
+    "greenkeeperId": "g1",
+    "greenkeeperName": "陈绿化",
+    "type": "pruning",
+    "date": "2026-06-13",
+    "note": "修剪病枝"
+  },
+  {
+    "id": "m6",
+    "treeId": "t2",
+    "greenkeeperId": "g2",
+    "greenkeeperName": "刘绿化",
+    "type": "watering",
+    "date": "2026-05-07",
+    "note": "过期认养期间的养护"
+  },
+  {
+    "id": "m7",
+    "treeId": "t5",
+    "greenkeeperId": "g2",
+    "greenkeeperName": "刘绿化",
+    "type": "watering",
+    "date": "2026-06-15",
+    "note": "新认养苗木首次浇水"
+  }
+]

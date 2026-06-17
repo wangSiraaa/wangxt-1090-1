@@ -1,0 +1,1 @@
+const fs=require("fs");console.log("gen script running");

@@ -1,0 +1,15 @@
+{
+  "trees": [
+    {
+      "id": "t1",
+      "name": "樱花树",
+      "species": "樱花",
+      "age": 3,
+      "location": "小区东门花坛",
+      "status": "healthy",
+      "plantedDate": "2023-03-15",
+      "image": "https://images.unsplash.com/photo-1522383225653-ed111181a951?w=400&h=300&fit=crop",
+      "description": "春季开花，花色粉红"
+    }
+  ]
+}
