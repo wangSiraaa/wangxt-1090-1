@@ -1,7 +1,7 @@
 import { useApp } from '../context/AppContext';
 import {
-  TreeDeciduous, Heart, Droplets, Users, MapPin, AlertTriangle,
-  Shield, RefreshCw, TrendingUp, CheckCircle, XCircle, Clock
+  TreeDeciduous, Heart, Droplets, MapPin, AlertTriangle,
+  Shield, TrendingUp, CheckCircle, XCircle, Clock
 } from 'lucide-react';
 
 export default function Statistics() {

@@ -64,8 +64,11 @@ export function AppProvider({ children }) {
   };
 
   const addMaintenance = (treeId, type, note) => {
-    const activeAdoption = adoptionsData.find(a => a.treeId === treeId && a.status === 'active');
     const today = new Date();
+    const treeAdoptions = adoptionsData.filter(a => a.treeId === treeId);
+    const activeAdoption = treeAdoptions.find(a => a.status === 'active');
+    const latestAdoption = treeAdoptions.sort((a, b) => new Date(b.endDate) - new Date(a.endDate))[0];
+    if (latestAdoption && !activeAdoption && new Date(latestAdoption.endDate) < today) return false;
     if (activeAdoption && new Date(activeAdoption.endDate) < today) return false;
     const newMaintenance = {
       id: 'm' + Date.now(),

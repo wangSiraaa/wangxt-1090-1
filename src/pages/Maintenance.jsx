@@ -3,7 +3,18 @@ import { useState } from 'react';
 import { useApp } from '../context/AppContext';
 import { Droplets, Leaf, Scissors, Calendar, User, Plus, Check } from 'lucide-react';
 
-const typeMap = { watering: { label: '浇水', icon: Droplets, color: 'text-blue-500 bg-blue-50' }, fertilizing: { label: '施肥', icon: Leaf, color: 'text-green-500 bg-green-50' }, pruning: { label: '修剪', icon: Scissors, color: 'text-amber-500 bg-amber-50' } };
+const typeMap = {
+  watering: { label: '浇水', icon: Droplets, color: 'text-blue-500 bg-blue-50' },
+  water: { label: '浇水', icon: Droplets, color: 'text-blue-500 bg-blue-50' },
+  fertilizing: { label: '施肥', icon: Leaf, color: 'text-green-500 bg-green-50' },
+  fertilize: { label: '施肥', icon: Leaf, color: 'text-green-500 bg-green-50' },
+  pruning: { label: '修剪', icon: Scissors, color: 'text-amber-500 bg-amber-50' },
+  prune: { label: '修剪', icon: Scissors, color: 'text-amber-500 bg-amber-50' },
+};
+
+const filterTypeMap = { all: 'all', watering: 'watering', water: 'watering', fertilizing: 'fertilizing', fertilize: 'fertilizing', pruning: 'pruning', prune: 'pruning' };
+
+const getTypeInfo = (type) => typeMap[type] || { label: type, icon: Droplets, color: 'text-gray-500 bg-gray-50' };
 
 export default function Maintenance() {
   const navigate = useNavigate();
@@ -16,7 +27,7 @@ export default function Maintenance() {
   const [message, setMessage] = useState('');
 
   const healthyTrees = treesData.filter(t => t.status === 'healthy');
-  const filtered = filterType === 'all' ? maintenancesData : maintenancesData.filter(m => m.type === filterType);
+  const filtered = filterType === 'all' ? maintenancesData : maintenancesData.filter(m => filterTypeMap[m.type] === filterType);
   const sorted = [...filtered].sort((a,b) => new Date(b.date) - new Date(a.date));
 
   const handleAdd = () => {
@@ -52,7 +63,7 @@ export default function Maintenance() {
       </div>
       <div className='space-y-3'>
         {sorted.map(m => {
-          const typeInfo = typeMap[m.type];
+          const typeInfo = getTypeInfo(m.type);
           const Icon = typeInfo.icon;
           return (
             <div key={m.id} className='bg-white rounded-xl shadow-sm p-4 flex items-center gap-4'>
